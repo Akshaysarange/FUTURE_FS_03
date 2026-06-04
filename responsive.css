@@ -1,0 +1,48 @@
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-direction:column;
+text-align:center;
+}
+
+.features{
+flex-direction:column;
+align-items:center;
+}
+
+.review-container{
+flex-direction:column;
+align-items:center;
+}
+
+.hero h1{
+font-size:35px;
+}
+
+}
+
+.about-content{
+    flex-direction:column;
+}
+
+.team-cards{
+    flex-direction:column;
+    align-items:center;
+}
+
+.contact-container{
+    flex-direction: column;
+}
+
+.reservation-card{
+    width: 100%;
+}
+
+.reservation-card h2{
+    font-size: 24px;
+}
