@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Menu - Bean & Brew Cafe</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">☕ Bean & Brew</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="darkBtn">🌙</button>
+</header>
+
+<section class="menu-section">
+
+<h1>Our Menu</h1>
+
+<div class="filter-buttons">
+    <button onclick="filterMenu('all')">All</button>
+    <button onclick="filterMenu('coffee')">Coffee</button>
+    <button onclick="filterMenu('food')">Food</button>
+    <button onclick="filterMenu('dessert')">Desserts</button>
+</div>
+
+<div class="menu-container">
+
+<div class="menu-card coffee">
+    <h3>Espresso</h3>
+    <p>Strong and rich coffee shot.</p>
+    <span>₹120</span>
+</div>
+
+<div class="menu-card coffee">
+    <h3>Cappuccino</h3>
+    <p>Fresh milk with espresso.</p>
+    <span>₹180</span>
+</div>
+
+<div class="menu-card coffee">
+    <h3>Latte</h3>
+    <p>Smooth creamy coffee.</p>
+    <span>₹200</span>
+</div>
+
+<div class="menu-card food">
+    <h3>Veg Burger</h3>
+    <p>Loaded with fresh veggies.</p>
+    <span>₹250</span>
+</div>
+
+<div class="menu-card food">
+    <h3>Cheese Pizza</h3>
+    <p>Classic Italian pizza.</p>
+    <span>₹350</span>
+</div>
+
+<div class="menu-card food">
+    <h3>French Fries</h3>
+    <p>Crispy golden fries.</p>
+    <span>₹150</span>
+</div>
+
+<div class="menu-card dessert">
+    <h3>Chocolate Cake</h3>
+    <p>Rich chocolate delight.</p>
+    <span>₹220</span>
+</div>
+
+<div class="menu-card dessert">
+    <h3>Brownie</h3>
+    <p>Served with ice cream.</p>
+    <span>₹180</span>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Bean & Brew Cafe</p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/menu.js"></script>
+
+</body>
+</html>
