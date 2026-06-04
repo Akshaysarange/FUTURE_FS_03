@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table Reservation - Bean & Brew Cafe</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">☕ Bean & Brew</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="darkBtn">🌙</button>
+</header>
+
+<section class="reservation-hero">
+    <h1>Reserve Your Table</h1>
+    <p>Book your favorite spot and enjoy a wonderful café experience.</p>
+</section>
+
+<section class="reservation-container">
+
+    <div class="reservation-card">
+
+        <h2>Book a Table</h2>
+
+        <form id="reservationForm">
+
+            <input type="text" id="fullName" placeholder="Full Name" required>
+
+            <input type="email" id="email" placeholder="Email Address" required>
+
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+
+            <input type="date" id="date" required>
+
+            <input type="time" id="time" required>
+
+            <select id="guests" required>
+                <option value="">Number of Guests</option>
+                <option>1 Person</option>
+                <option>2 People</option>
+                <option>3 People</option>
+                <option>4 People</option>
+                <option>5 People</option>
+                <option>6+ People</option>
+            </select>
+
+            <textarea
+                id="notes"
+                rows="4"
+                placeholder="Special Requests (Optional)">
+            </textarea>
+
+            <button type="submit">Reserve Now</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Bean & Brew Cafe. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+<script>
+document.getElementById("reservationForm")
+.addEventListener("submit", function(e){
+
+e.preventDefault();
+
+alert("Table Reserved Successfully! We look forward to serving you.");
+
+this.reset();
+
+});
+</script>
+
+</body>
+</html>
